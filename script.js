@@ -5,21 +5,22 @@
 
 // 1. Greeting Function
 
-
+//name=prompt("Enter your name:")
 // function greet(name){
 //     return(`Hello,${name}! Welcome to javasript`)
 // }
-// console.log(greet("Deepan"));
+// console.log(greet(name));
 
 
 
 // 2. Sum of Two Numbers
 
-
+// a=parseInt(prompt("Enter any number:"));
+// b=parseInt(prompt("Enter any number:"));
 // function greet(a,b){
 //  return(a+b)
 // }
-// console.log(greet(5,7));
+// console.log(greet(a,b));
 
 
 
@@ -37,6 +38,10 @@
 //4. Find Maximum of Three Numbers
 
 
+//a=parseInt(prompt("Enter any number:"));
+// b=parseInt(prompt("Enter any number:"));
+// c=parseInt(prompt("Enter any number:"));
+
 // function findmax(a,b,c){
 //     if(a>b&&a>c){
 //       console.log(`${a} is the greater number`) 
@@ -51,24 +56,24 @@
 //       console.log("number is invalid") 
 //     }
 // }
-// findmax(3,25,10);
+// findmax(a,b,c);
 
 
 
 // 5. Count Words in a Sentence
 
-
+//sentence=prompt("Enter any sentence:")
 // function countWords(sentence){
 //   count=sentence.split(" ")
 //   return(count.length)
 // }
-// console.log(countWords("JavaScript is fun to learn"));
+// console.log(countWords(sentence));
 
 
 
 //6. Check Even or Odd
 
-
+// a=parseInt(prompt("Enter any number:"));
 // myFunction = (a) =>{
 // if(a%2==0){
 //     console.log("True")
@@ -77,13 +82,13 @@
 //     console.log("False")
 // }
 // }
-// myFunction(10)
+// myFunction(a)
 
 
 
 //7. Calculate Factorial
 
-
+// a=parseInt(prompt("Enter any number:"));
 // const factorial = (a) => {
 //   let facts = 1;
 //   for (let i = 1; i <= a; i++) {
@@ -92,7 +97,7 @@
 //   return facts;
 // }
 
-// console.log(factorial(5));
+// console.log(factorial(a));
 
 
 
@@ -100,7 +105,7 @@
 
 //8. Count Vowels in a String
 
-
+// char=prompt("Enter any word:");
 //  let vowel=[]
 //  function countVowels(char){
 //  for(let i=0;i<=char.length;i++){
@@ -109,25 +114,26 @@
 //      }
 // }
 // }
-// countVowels("JavaScript");
+// countVowels(char);
 // console.log(vowel.length)
 
 
 
 //9. Create a function to check prime number
 
+// num=parseInt(prompt("Enter any number:"));
 // function isPrime(num){
 //     if(num==2||num==3||num==5||num==7){
 //         console.log(true)
 //     }
-//     else if(num%2==0||num%3==0||num%5==0||num%7==0){
+//     else if(num%2==0||num%3==0||num%5==0||num%7==0||num==0||num==1){
 //         console.log(false)
 //     }
 //     else{
 //          console.log(true)
 //     }
 // }
-// isPrime(44);
+// isPrime(num);
 
 
 
@@ -260,16 +266,17 @@
 
 //🎯 Mini Project 4 – Temperature Converter
 
-
+// value=prompt("Enter the value:")
+// scale=prompt("Enter the scale:")
 // function convertTemperature(value, scale){
 //   if(scale=="F") {
 //       let c=(value - 32) * 5/9
-//       return(`Temperature in farenheat is :${c}`)
+//       return(`Temperature in celsius is :${c}°C`)
 //   }
 //     else if(scale=="C") {
-//       let f=(value - 32) * 5/9
-//       return(`Temperature in celsius is :${f}`)
+//       let f= (value * 9/5) + 32
+
+//       return(`Temperature in farenheat is :${f}°F`)
 //   }
 // }
-// console.log(convertTemperature(80, "F"));
-// console.log(convertTemperature(90, "C"));
+// console.log(convertTemperature(value, scale));

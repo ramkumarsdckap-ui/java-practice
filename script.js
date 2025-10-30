@@ -2,8 +2,8 @@
 
 //🟢Easy (Beginner Level)
 
-
 // 1. Greeting Function
+//self-code
 
 //name=prompt("Enter your name:")
 // function greet(name){
@@ -14,6 +14,7 @@
 
 
 // 2. Sum of Two Numbers
+//self-code
 
 // a=parseInt(prompt("Enter any number:"));
 // b=parseInt(prompt("Enter any number:"));
@@ -25,7 +26,7 @@
 
 
 // 3. Default Parameters
-
+//self-code
 
 // function greet(a,b=2){
 //  return(a*b)
@@ -36,7 +37,7 @@
 
 //🟡 Medium (Intermediate Level)
 //4. Find Maximum of Three Numbers
-
+//self-code
 
 //a=parseInt(prompt("Enter any number:"));
 // b=parseInt(prompt("Enter any number:"));
@@ -61,6 +62,7 @@
 
 
 // 5. Count Words in a Sentence
+//self-code
 
 //sentence=prompt("Enter any sentence:")
 // function countWords(sentence){
@@ -72,6 +74,7 @@
 
 
 //6. Check Even or Odd
+//self-code
 
 // a=parseInt(prompt("Enter any number:"));
 // myFunction = (a) =>{
@@ -87,6 +90,7 @@
 
 
 //7. Calculate Factorial
+//self-code
 
 // a=parseInt(prompt("Enter any number:"));
 // const factorial = (a) => {
@@ -104,6 +108,7 @@
 // 🔵 Difficult (Advanced / Logical Thinking)
 
 //8. Count Vowels in a String
+//self-code
 
 // char=prompt("Enter any word:");
 //  let vowel=[]
@@ -120,6 +125,7 @@
 
 
 //9. Create a function to check prime number
+//self-code
 
 // num=parseInt(prompt("Enter any number:"));
 // function isPrime(num){
@@ -138,7 +144,7 @@
 
 
 // 10. Closure Counter
-
+//self-code
 
 // function closure(){
 //     count=0;
@@ -163,7 +169,7 @@
 
 
 //🎯 Mini Project 1 – Simple Calculator
-
+//self-code
 
 // let num1=prompt("Enter first number :")
 // let num2=prompt("Enter second number :")
@@ -190,7 +196,7 @@
 
 
 //🎯 Mini Project 2 – Student Grade Evaluator
-
+//self-code
 
 
 // let marks = prompt("Enter your mark out of hundred:");
@@ -265,6 +271,7 @@
 
 
 //🎯 Mini Project 4 – Temperature Converter
+//self-code
 
 // value=prompt("Enter the value:")
 // scale=prompt("Enter the scale:")
